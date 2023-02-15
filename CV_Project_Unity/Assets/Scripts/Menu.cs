@@ -59,6 +59,6 @@ public class Menu : MonoBehaviour
     
     public void OpenWebSite()
     {
-        Application.OpenURL("https://www.ilabit.org");
+        Application.OpenURL("https://github.com/kholodilinivan/CVSystem");
     }
 }

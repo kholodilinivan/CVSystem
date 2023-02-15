@@ -75,7 +75,7 @@ public class Changes : MonoBehaviour
     // Laser Rotation
     public void LaserXYZ_rot()
     {
-        LasActive.transform.localRotation = Quaternion.Euler(float.Parse(las_rot_y.text), float.Parse(las_rot_z.text), float.Parse(las_rot_x.text));
+        LasActive.transform.localRotation = Quaternion.Euler(float.Parse(las_rot_y.text, CultureInfo.InvariantCulture), float.Parse(las_rot_z.text, CultureInfo.InvariantCulture), float.Parse(las_rot_x.text, CultureInfo.InvariantCulture));
     }
     public void Reset_LaserXYZ_rot()
     {
