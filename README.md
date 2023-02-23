@@ -4,7 +4,7 @@ If these files were useful, consider citation: \
 `I. Kholodilin, Y. Li and Q. Wang, "Omnidirectional Vision System With Laser Illumination in a Flexible Configuration and Its Calibration by One Single Snapshot," in IEEE Transactions on Instrumentation and Measurement, vol. 69, no. 11, pp. 9105-9118, Nov. 2020, doi: 10.1109/TIM.2020.2998598.`
 
 ## How to open this project with Unity
-The simulation environment was built with Unity 2020.3.15f2, for importing project to another Unity version consider this import asset: 
+The simulation environment was built with Unity 2020.3.15f2, for importing project to another Unity version consider [this import asset](https://github.com/kholodilinivan/CVSystem/blob/main/sv_syst_unityasset.unitypackage) 
 
 In order to make the laser work you need to change setting of the Unity project in the following way: File -> Build Settings -> Player Settings -> Player -> Other Settings -> Rendering -> Auto Graphics API for Windows (disable it) -> add OpenGLCore and move it up 
 
