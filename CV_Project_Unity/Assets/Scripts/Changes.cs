@@ -45,7 +45,7 @@ public class Changes : MonoBehaviour
     // Camera Orientation
     public void DroneXYZ_rot()
     {
-        DroneConfig.transform.localRotation = Quaternion.Euler(float.Parse(rot_cam_y.text), float.Parse(rot_cam_z.text), float.Parse(rot_cam_x.text));
+        DroneConfig.transform.localRotation = Quaternion.Euler(float.Parse(rot_cam_y.text, CultureInfo.InvariantCulture), float.Parse(rot_cam_z.text, CultureInfo.InvariantCulture), float.Parse(rot_cam_x.text, CultureInfo.InvariantCulture));
     }
 
     public void Reset_DroneXYZ_rot()
@@ -88,7 +88,7 @@ public class Changes : MonoBehaviour
     // Position
     public void CVSystXY()
     {
-        CVSyst.transform.localPosition = new Vector3(-(float.Parse(cv_pos_y.text)) / 1000, 0, (float.Parse(cv_pos_x.text)) / 1000);
+        CVSyst.transform.localPosition = new Vector3(-(float.Parse(cv_pos_y.text, CultureInfo.InvariantCulture)) / 1000, 0, (float.Parse(cv_pos_x.text, CultureInfo.InvariantCulture)) / 1000);
     }
     public void Reset_CVSystXY()
     {
@@ -98,7 +98,7 @@ public class Changes : MonoBehaviour
     // Rotation
     public void CVSyst_rot()
     {
-        CVSyst.transform.localRotation = Quaternion.Euler(0, float.Parse(cv_rot_z.text), 0);
+        CVSyst.transform.localRotation = Quaternion.Euler(0, float.Parse(cv_rot_z.text, CultureInfo.InvariantCulture), 0);
     }
     public void Reset_CVSyst_rot()
     {
@@ -134,7 +134,7 @@ public class Changes : MonoBehaviour
     // Left pattern Rotation
     public void LeftChessXYZ_rot()
     {
-        LeftChess.transform.localRotation = Quaternion.Euler(float.Parse(leftchess_rot_x.text), float.Parse(leftchess_rot_z.text), float.Parse(leftchess_rot_y.text));
+        LeftChess.transform.localRotation = Quaternion.Euler(float.Parse(leftchess_rot_x.text, CultureInfo.InvariantCulture), float.Parse(leftchess_rot_z.text, CultureInfo.InvariantCulture), float.Parse(leftchess_rot_y.text, CultureInfo.InvariantCulture));
     }
     public void Reset_LeftChessXYZ_rot()
     {
@@ -157,7 +157,7 @@ public class Changes : MonoBehaviour
     // Right pattern Rotation
     public void RightChessXYZ_rot()
     {
-        RightChess.transform.localRotation = Quaternion.Euler(float.Parse(rightchess_rot_x.text), float.Parse(rightchess_rot_z.text), float.Parse(rightchess_rot_y.text));
+        RightChess.transform.localRotation = Quaternion.Euler(float.Parse(rightchess_rot_x.text, CultureInfo.InvariantCulture), float.Parse(rightchess_rot_z.text, CultureInfo.InvariantCulture), float.Parse(rightchess_rot_y.text, CultureInfo.InvariantCulture));
     }
     public void Reset_RightChessXYZ_rot()
     {
@@ -180,7 +180,7 @@ public class Changes : MonoBehaviour
     // Right pattern Rotation
     public void BottomChessXYZ_rot()
     {
-        BottomChess.transform.localRotation = Quaternion.Euler(float.Parse(bottomchess_rot_x.text), float.Parse(bottomchess_rot_z.text), float.Parse(bottomchess_rot_y.text));
+        BottomChess.transform.localRotation = Quaternion.Euler(float.Parse(bottomchess_rot_x.text, CultureInfo.InvariantCulture), float.Parse(bottomchess_rot_z.text, CultureInfo.InvariantCulture), float.Parse(bottomchess_rot_y.text, CultureInfo.InvariantCulture));
     }
     public void Reset_BottomChessXYZ_rot()
     {
@@ -217,7 +217,7 @@ public class Changes : MonoBehaviour
     // Left cube Rotation
     public void LeftCubeXYZ_rot()
     {
-        LeftCube.transform.localRotation = Quaternion.Euler(float.Parse(leftcube_rot_x.text), float.Parse(leftcube_rot_z.text), float.Parse(leftcube_rot_y.text));
+        LeftCube.transform.localRotation = Quaternion.Euler(float.Parse(leftcube_rot_x.text, CultureInfo.InvariantCulture), float.Parse(leftcube_rot_z.text, CultureInfo.InvariantCulture), float.Parse(leftcube_rot_y.text, CultureInfo.InvariantCulture));
     }
     public void Reset_LeftCubeXYZ_rot()
     {
@@ -240,7 +240,7 @@ public class Changes : MonoBehaviour
     // Front cube Rotation
     public void FrontCubeXYZ_rot()
     {
-        FrontCube.transform.localRotation = Quaternion.Euler(float.Parse(frontcube_rot_x.text), float.Parse(frontcube_rot_z.text), float.Parse(frontcube_rot_y.text));
+        FrontCube.transform.localRotation = Quaternion.Euler(float.Parse(frontcube_rot_x.text, CultureInfo.InvariantCulture), float.Parse(frontcube_rot_z.text, CultureInfo.InvariantCulture), float.Parse(frontcube_rot_y.text, CultureInfo.InvariantCulture));
     }
     public void Reset_FrontCubeXYZ_rot()
     {
@@ -263,7 +263,7 @@ public class Changes : MonoBehaviour
     // Right cube Rotation
     public void RightCubeXYZ_rot()
     {
-        RightCube.transform.localRotation = Quaternion.Euler(float.Parse(rightcube_rot_x.text), float.Parse(rightcube_rot_z.text), float.Parse(rightcube_rot_y.text));
+        RightCube.transform.localRotation = Quaternion.Euler(float.Parse(rightcube_rot_x.text, CultureInfo.InvariantCulture), float.Parse(rightcube_rot_z.text, CultureInfo.InvariantCulture), float.Parse(rightcube_rot_y.text, CultureInfo.InvariantCulture));
     }
     public void Reset_RightCubeXYZ_rot()
     {
