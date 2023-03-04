@@ -14,8 +14,8 @@ Video explanations in Russian - https://youtu.be/cOV2bShOkYM
 
 ## Project Motivation and Main Theory
 Text explanations in English - [Omnidirectional Vision System.pdf](https://github.com/kholodilinivan/CVSystem/files/10878212/Omnidirectional.Vision.System.pdf) \
-Video explanations in English -  \
-Video explanations in Russian -  
+Video explanations in English - https://youtu.be/eyiFRb6uCYg \
+Video explanations in Russian - https://youtu.be/xRcYKhm8VO0 
 
 ## Project Tutorials
 * **How To Use** \
