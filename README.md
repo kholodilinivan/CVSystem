@@ -53,6 +53,13 @@ Text explanations in English - [Tutorial Basic.pdf](https://github.com/kholodili
 Video explanations in English - https://youtu.be/8Lbmiy_5Bqg \
 Презентация на русском - [Одиночная карта.pdf](https://github.com/kholodilinivan/CVSystem/files/10905900/default.pdf) \
 Видео пояснения на русском - https://youtu.be/cOV2bShOkYM \
+`if have error below, watch in video tutorial on 52:00 how to fix 
+Processing image TestImages/image.jpg...Error using fscanf 
+Invalid file identifier. Use fopen to generate a valid file identifier. 
+Error in get_checkerboard_cornersUrban (line 102) 
+cornerInfo = fscanf(fid, '%g %g', [1 2]); 
+Error in CalibBasic (line 9) 
+get_checkerboard_cornersUrban(i+1,use_corner_find,calib_data);`\
 ![image](https://user-images.githubusercontent.com/34764174/220335798-6d181b17-ca8e-4d5d-9520-c0052e36dbc0.png)
 
 * **Tutorial Intermediate** \
@@ -71,4 +78,11 @@ Text explanations in English - [Tutorial Advance Chess.pdf](https://github.com/k
 Video explanations in English - https://youtu.be/8Lbmiy_5Bqg \
 Презентация на русском - [Внешняя калибровка.pdf](https://github.com/kholodilinivan/CVSystem/files/10905905/default.pdf) \
 Видео пояснения на русском - https://youtu.be/cOV2bShOkYM \
+`if have error below, watch in video tutorial on 52:00 how to fix 
+Processing image TestImages/image.jpg...Error using fscanf 
+Invalid file identifier. Use fopen to generate a valid file identifier. 
+Error in get_checkerboard_cornersUrban (line 102) 
+cornerInfo = fscanf(fid, '%g %g', [1 2]); 
+Error in CalibBasic (line 9) 
+get_checkerboard_cornersUrban(i+1,use_corner_find,calib_data);`\
 ![image](https://user-images.githubusercontent.com/34764174/220336797-b76674b7-3cc8-4517-a1b8-613691644272.png)
